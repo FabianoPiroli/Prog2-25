@@ -35,3 +35,4 @@ $listaRetangulos = [
 foreach ($listaRetangulos as $retangulo){
     $retangulo->exibirDetalhes();
 }
+?>
