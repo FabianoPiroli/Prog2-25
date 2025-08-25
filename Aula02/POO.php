@@ -1,14 +1,14 @@
 <?php
 
-    public class Usuario{
-        string $nome
-        string $email
-        int $idade
+    class Usuario{
+        public string $nome;
+        public string $email;
+        public int $idade;
     }
 
     $fabiano = new Usuario();
-    $fabiano->$nome = "Fabiano";
-    $fabiano->$email = "fabianopiroli98@gmail.com";
+    $fabiano->nome = "Fabiano";
+    $fabiano->email = "fabianopiroli98@gmail.com";
     $fabiano->$idade = 26;
 
     public function exibirDados($n, $e, $i){
