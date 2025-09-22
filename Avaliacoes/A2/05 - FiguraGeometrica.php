@@ -49,5 +49,5 @@ $figuras = [
 ];
 
 foreach ($figuras as $figura) {
-    echo "Área: " . get_class($figura) . " " . $figura->calcularArea() . "<br>";
+    echo "Área: " . $figura->calcularArea() . "<br>";
 }
